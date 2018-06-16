@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wordpress.umangandroidblog.flashsearch.SearchFragment">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/word_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="16dp"
+        android:drawableStart="@drawable/ic_search"
+        android:hint="@string/word_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="16dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/word_found_textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="Hello World" />
+
+</LinearLayout>

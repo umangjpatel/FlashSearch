@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlashSearch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="word_not_found">Not Found</string>
+    <string name="word_found">Word Found</string>
+    <string name="word_hint">Enter your word</string>
+</resources>
